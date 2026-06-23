@@ -405,4 +405,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 **Keshav Sharma**  
 Computer Science Engineering (Data Science), VIT Chennai  
 GitHub: [github.com/Keshav-spec](https://github.com/Keshav-spec)  
-PyPI: [pypi.org/project/ratelimiter-keshav](https://pypi.org/project/ratelimiter-keshav)
+PyPI: [pypi.org/project/ratelimiter-keshav](https://pypi.org/project/ratelimiter-keshav/0.1.0/)
