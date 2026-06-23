@@ -16,3 +16,20 @@ def test_check():
     allowed, _ = limiter.check("user")
 
     assert allowed
+
+def test_limit_decorator():
+
+    limiter = RateLimiter(
+        algorithm=FixedWindow(
+            limit=1,
+            window_seconds=60
+        ),
+        storage=InMemoryStorage()
+    )
+
+    @limiter.limit()
+    def hello():
+        return "hello"
+
+    assert hello() == "hello"
+
